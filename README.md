@@ -31,7 +31,7 @@ In this project, you can build your own C++ application or extend this Snake gam
 4. Run it: `./SnakeGame`.
 ## Additional Functionality
 
-I added another mode to the game where the computer can play the game itself, at the start of the game the user will choose one of 2 choises: 
+I added another mode to the game where the computer can play the game itself, at the start of the game the user will choose one of 2 choices: 
 1. to play the game in normal mode.
 2. to let the computer play. :robot:
 
