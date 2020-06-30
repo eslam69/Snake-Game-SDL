@@ -29,6 +29,7 @@ In this project, you can build your own C++ application or extend this Snake gam
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./SnakeGame`.
+<!--
 ## Additional Functionality
 
 I added another mode to the game where the computer can play the game itself, at the start of the game the user will choose one of 2 choices: 
@@ -63,3 +64,4 @@ The `player.h` and `player.cpp` files contain the implementation of the computer
 |--------|------------|
 |The project uses scope / Resource Acquisition Is Initialization (RAII) where appropriate.|`Game` instances on self-playing mode utilize RAII with respect to its heap-allocated `Player` member. `Game`'s contructor initializes the unique pointer to the `Player` that the instance owns. Due to the utilization of a smart pointer, the player instance is deallocated when the pointer goes out of code (i.e., when the `Game` instance is destroyed).|
 |The project uses smart pointers instead of raw pointers.|I use smart pointers as appropriate where i used a unique pointer that points to a player object as private member of the `Game` Class  |
+-->
