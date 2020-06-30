@@ -1,3 +1,0 @@
-/home/eslam/Documents/cpp nd/snake/snake-game-sdl/build/CMakeFiles/rebuild_cache.dir
-/home/eslam/Documents/cpp nd/snake/snake-game-sdl/build/CMakeFiles/edit_cache.dir
-/home/eslam/Documents/cpp nd/snake/snake-game-sdl/build/CMakeFiles/SnakeGame.dir
