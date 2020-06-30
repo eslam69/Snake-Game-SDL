@@ -1,9 +1,8 @@
 # Snake Game SDL2
 
-
-
 <img src="snake_game.gif"/>
 ## Dependencies for Running Locally
+
 * cmake >= 3.7
   * All OSes: [click here for installation instructions](https://cmake.org/install/)
 * make >= 4.1 (Linux, Mac), 3.81 (Windows)
@@ -21,10 +20,11 @@
 ## Basic Build Instructions
 
 1. Clone this repo.
-2. Compile `find . -iwholename '*cmake*' -not -name CMakeLists.txt -delete`
+2. Compile `find . -iwholename '*cmake' -not -name CMakeLists.txt -delete`
 3. Make a build directory in the top level directory: `mkdir build && cd build`
 4. Compile: `cmake .. && make`
 5. Run it: `./SnakeGame`.
+
 <!--
 ## Additional Functionality
 
